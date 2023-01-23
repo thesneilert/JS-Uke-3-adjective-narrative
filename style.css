@@ -5,12 +5,28 @@ body {
 }
 
 .overskrift {
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
-    }
-    
+    padding: 30px;
+}
+
 .text {
-      margin: auto;
-      width: 500px; 
-      padding: 20px;
-      font-family: "Open Sans";
-    }
+    margin: auto;
+    width: 750px;
+    padding: 20px;
+    font-family: "Open Sans";
+    line-height: 30px;
+    border: 1px solid #272727;
+    background-color: #1f1f1f;
+}
+
+.knapper {
+font-size: 13px;
+}
+
+.knapp {
+
+}
+
+.knapp2 {
