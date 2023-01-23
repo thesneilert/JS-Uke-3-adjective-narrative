@@ -4,13 +4,13 @@ body {
     font-family: "Open Sans";
 }
 
-#overskrift {
+.overskrift {
     text-align: center;
     }
     
-#text {
+.text {
       margin: auto;
-      width: 600px; 
+      width: 500px; 
       padding: 20px;
       font-family: "Open Sans";
     }
