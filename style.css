@@ -1,4 +1,16 @@
 body {
     background-color: #1c1c1c;
-    color: #cccccc
+    color: #cccccc;
+    font-family: "Open Sans";
 }
+
+#overskrift {
+    text-align: center;
+    }
+    
+#text {
+      margin: auto;
+      width: 600px; 
+      padding: 20px;
+      font-family: "Open Sans";
+    }
