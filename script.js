@@ -1,16 +1,16 @@
 const output = document.getElementById("storyOutput");
-let valgfrittOrd1 = "____";
-let valgfrittOrd2 = "____";
-let valgfrittOrd3 = "____";
-let valgfrittOrd4 = "____";
-let valgfrittOrd5 = "____";
+let valgfrittOrd1 = "<span style='color: red;'>____</span>";
+let valgfrittOrd2 = "<span style='color: blue;'>____</span>";
+let valgfrittOrd3 = "<span style='color: green;'>____</span>";
+let valgfrittOrd4 = "<span style='color: orange;'>____</span>";
+let valgfrittOrd5 = "<span style='color: purple;'>____</span>";
 buildStory();   
 
 function buildStory(){
     output.innerHTML = `
-    En dag hadde Eilert en ${valgfrittOrd1} idè, han skulle lage en ${valgfrittOrd2} adjektivhistorie.<br>
-    Kanskje ble det ikke fullt en så ${valgfrittOrd3} historie, men du fikk hvertfall satt inn dine egne ${valgfrittOrd4} ord.<br>
-    Faktisk var det ikke dine helt egne ord heller, for Eilert ga deg kun tre ${valgfrittOrd5} valgmuligheter.
+    En dag hadde Eilert en <span style='color: red;'>${valgfrittOrd1}</span> idè, han skulle lage en <span style='color: blue;'>${valgfrittOrd2}</span> adjektivhistorie.<br>
+    Kanskje ble det ikke fullt en så <span style='color: green;'>${valgfrittOrd3}</span> historie, men du fikk hvertfall satt inn dine egne <span style='color: orange;'>${valgfrittOrd4}</span> ord.<br>
+    Faktisk var det ikke dine helt egne ord heller, for Eilert ga deg kun tre <span style='color: purple;'>${valgfrittOrd5}</span> valgmuligheter.
     `;
 }
 

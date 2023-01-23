@@ -1,32 +1,128 @@
 body {
-    background-color: #1c1c1c;
-    color: #cccccc;
-    font-family: "Open Sans";
+  background-color: #1c1c1c;
+  color: #cccccc;
 }
 
 .overskrift {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding: 30px;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
 }
 
 .text {
-    margin: auto;
-    width: 750px;
-    padding: 20px;
-    font-family: "Open Sans";
-    line-height: 30px;
-    border: 1px solid #272727;
-    background-color: #1f1f1f;
+  margin: auto;
+  width: 750px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  line-height: 30px;
+  border: 1px solid #272727;
+  background-color: #1f1f1f;
 }
 
+/*knapper*/
 .knapper {
-font-size: 13px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Open Sans";
 }
 
-.knapp {
+.knapp1 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 16px;
+  height: 25px;
+  min-width: 260px;
+  min-height: 25px;
+  border: none;
+  color: #cccccc;
+  background-color: rgb(87, 87, 90);
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
 
+.knapp1:hover {
+  background-color: red;
 }
 
 .knapp2 {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 2px 16px;
+  height: 25px;
+  min-width: 260px;
+  min-height: 25px;
+  border: none;
+  color: #cccccc;
+  background-color: rgb(87, 87, 90);
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+
+.knapp2:hover {
+  background-color: blue;
+}
+
+.knapp3 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px 16px;
+    height: 25px;
+    min-width: 260px;
+    min-height: 25px;
+    border: none;
+    color: #cccccc;
+    background-color: rgb(87, 87, 90);
+    transition: background-color 0.17s ease, color 0.17s ease;
+  }
+  
+  .knapp3:hover {
+    background-color: green;
+  }
+
+  .knapp4 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px 16px;
+    height: 25px;
+    min-width: 260px;
+    min-height: 25px;
+    border: none;
+    color: #cccccc;
+    background-color: rgb(87, 87, 90);
+    transition: background-color 0.17s ease, color 0.17s ease;
+  }
+  
+  .knapp4:hover {
+    background-color: orange;
+  }
+
+  .knapp5 {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 2px 16px;
+    height: 25px;
+    min-width: 260px;
+    min-height: 25px;
+    border: none;
+    color: #cccccc;
+    background-color: rgb(87, 87, 90);
+    transition: background-color 0.17s ease, color 0.17s ease;
+  }
+  
+  .knapp5:hover {
+    background-color: purple;
+  }
+  
+  
+  
